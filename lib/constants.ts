@@ -26,4 +26,6 @@ export const REPO_URL =
 export const NPX_COMMAND =
   "npx github-contribution-gravity-lens --user <username> --token <GitHub Personal Access Token> --theme <theme-name>";
 export const ACTIONS_URL =
-  "https://github.com/Rujuu-prog/github-contribution-gravity-lens/blob/main/docs/getting-started.md";
+  `${REPO_URL}/blob/main/docs/getting-started.md`;
+export const GITHUB_ACTIONS_DOC_URL =
+  `${REPO_URL}/blob/main/docs/getting-started.md`;

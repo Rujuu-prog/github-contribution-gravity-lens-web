@@ -1,7 +1,7 @@
 "use client";
 
 import { MainLayout } from "@/components/templates/main-layout";
-import { REPO_URL, NPX_COMMAND } from "@/lib/constants";
+import { REPO_URL, NPX_COMMAND, GITHUB_ACTIONS_DOC_URL } from "@/lib/constants";
 import { useI18n } from "@/lib/i18n-context";
 
 export default function DocsPage() {
@@ -53,7 +53,7 @@ export default function DocsPage() {
           <div className="space-y-3 text-sm text-zinc-300">
             <p>{t("docs.actions_desc")}</p>
             <a
-              href={`${REPO_URL}/blob/main/docs/github-actions.md`}
+              href={GITHUB_ACTIONS_DOC_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block text-violet-400 hover:text-violet-300"
